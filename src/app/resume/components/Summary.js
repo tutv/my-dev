@@ -8,7 +8,7 @@ class Summary extends Component {
 
                 <div className="MainSection">
                     <p className="Paragraph">
-                        I'm Tran Van Tu, a full stack developer with <strong>5 years of experience in Javascript
+                        I'm Tran Van Tu, a full stack developer with <strong>5 years of experience in Javascript (Node.js)
                         language (both backend and frontend)</strong> and 1 year of experience in PHP, with good
                         knowledge of Database Design, Functional Programing and Microservice Architecture.
                     </p>
