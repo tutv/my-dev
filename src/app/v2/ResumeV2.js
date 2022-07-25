@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
 import ResumeHeaderV2 from "./ResumeHeaderV2"
 import Education from "./Education"
+import WorkExperience from "./WorkExperience"
+import Achievements from "./Achievements"
 
 
 class ResumeV2 extends Component {
@@ -9,6 +11,8 @@ class ResumeV2 extends Component {
             <div className="ResumeV2">
                 <ResumeHeaderV2/>
                 <Education/>
+                <WorkExperience/>
+                <Achievements/>
             </div>
         )
     }
