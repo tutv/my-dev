@@ -8,29 +8,16 @@ class WorkExperience extends Component {
                 <h3 className="SectionTitle">Work experience</h3>
 
                 <div className="MainSection">
-                    <div className="TimeLine">
-                        <div className="HeadTime">
-                            <div className="TimeTitle">Internship at Foobla</div>
-                            <div className="TimeRange">July, 2015 - March, 2017</div>
-                        </div>
-                        <div className="MainTime">
-                            <div className="Text">
-                                Learning and developing some themes and plugins for products of Foobla, which are sold
-                                on
-                                Envato.
-                            </div>
-                        </div>
-                    </div>
 
                     <div className="TimeLine">
                         <div className="HeadTime">
-                            <div className="TimeTitle">Software Engineer at Foobla</div>
-                            <div className="TimeRange">March, 2017 - May, 2020</div>
+                            <div className="TimeTitle">Solution Architect at Merchize (renamed from Foobla)</div>
+                            <div className="TimeRange">June, 2020 - July, 2022</div>
                         </div>
                         <div className="MainTime">
                             <div className="Text">
-                                Designing system and developing strategic projects on data analysis of e-commerce
-                                platforms.
+                                Providing solutions and designing system for Merchize Platform - an e-commerce platform
+                                for print-on-demand.
                             </div>
                         </div>
                     </div>
@@ -51,16 +38,30 @@ class WorkExperience extends Component {
                         </div>
                     </div>
 
+
                     <div className="TimeLine">
                         <div className="HeadTime">
-                            <div className="TimeTitle">Solution Architect at Merchize (renamed from Foobla)</div>
-                            <div className="TimeRange">June, 2020 - July, 2022</div>
+                            <div className="TimeTitle">Software Engineer at Foobla</div>
+                            <div className="TimeRange">March, 2017 - May, 2020</div>
                         </div>
                         <div className="MainTime">
                             <div className="Text">
-                                Providing solutions and designing system for Merchize Platform - an e-commerce platform
-                                for
-                                print-on-demand.
+                                Designing system and developing strategic projects on data analysis of e-commerce
+                                platforms.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="TimeLine">
+                        <div className="HeadTime">
+                            <div className="TimeTitle">Internship at Foobla</div>
+                            <div className="TimeRange">July, 2015 - March, 2017</div>
+                        </div>
+                        <div className="MainTime">
+                            <div className="Text">
+                                Learning and developing some themes and plugins for products of Foobla, which are sold
+                                on
+                                Envato.
                             </div>
                         </div>
                     </div>
