@@ -15,7 +15,7 @@ class WorkExperience extends Component {
                         </div>
                         <div className="MainTime">
                             <div className="Text">
-                                Learn and develop some themes and plugins for product of Foobla, which are sell on
+                                Learning and developing some themes and plugins for products of Foobla, which are sold on
                                 Envato.
                             </div>
                         </div>
@@ -28,7 +28,7 @@ class WorkExperience extends Component {
                         </div>
                         <div className="MainTime">
                             <div className="Text">
-                                Design system and develop strategic projects on data analysis of e-commerce platforms.
+                                Designing system and developing strategic projects on data analysis of e-commerce platforms.
                             </div>
                         </div>
                     </div>
@@ -52,7 +52,7 @@ class WorkExperience extends Component {
                         </div>
                         <div className="MainTime">
                             <div className="Text">
-                                Provide solutions and design system for Merchize Platform - an e-commerce platform for
+                                Providing solutions and designing system for Merchize Platform - an e-commerce platform for
                                 print-on-demand.
                             </div>
                         </div>
