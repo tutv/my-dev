@@ -1,22 +1,20 @@
 import React, {Component} from 'react'
 import PropTypes from 'prop-types'
+import HeaderQR from "./HeaderQR"
 
 
 class ResumeHeaderV2 extends Component {
     render() {
         return (
             <div className="ResumeHeaderV2 d-flex">
+                <HeaderQR/>
+
                 <div className="Left">
                     <img src="/images/avatar.jpg" width="120" alt="Avatar"/>
                 </div>
 
                 <div className="Right">
                     <h1>Tran Van Tu</h1>
-
-                    <div className="Sub">
-                        <label>Date of birth:</label>
-                        <span>November 05, 1995</span>
-                    </div>
 
                     <div className="Sub">
                         <label>Date of birth:</label>

@@ -15,7 +15,8 @@ class WorkExperience extends Component {
                         </div>
                         <div className="MainTime">
                             <div className="Text">
-                                Learning and developing some themes and plugins for products of Foobla, which are sold on
+                                Learning and developing some themes and plugins for products of Foobla, which are sold
+                                on
                                 Envato.
                             </div>
                         </div>
@@ -28,14 +29,19 @@ class WorkExperience extends Component {
                         </div>
                         <div className="MainTime">
                             <div className="Text">
-                                Designing system and developing strategic projects on data analysis of e-commerce platforms.
+                                Designing system and developing strategic projects on data analysis of e-commerce
+                                platforms.
                             </div>
                         </div>
                     </div>
 
                     <div className="TimeLine">
                         <div className="HeadTime">
-                            <div className="TimeTitle">Co-founder and mentor at UET Code Camp</div>
+                            <div className="TimeTitle">
+                                <a href="https://uetcodecamp.github.io" rel="noreferrer" target="_blank">
+                                    Co-founder and mentor at UET Code Camp
+                                </a>
+                            </div>
                             <div className="TimeRange">February, 2018 - July, 2019</div>
                         </div>
                         <div className="MainTime">
@@ -52,7 +58,8 @@ class WorkExperience extends Component {
                         </div>
                         <div className="MainTime">
                             <div className="Text">
-                                Providing solutions and designing system for Merchize Platform - an e-commerce platform for
+                                Providing solutions and designing system for Merchize Platform - an e-commerce platform
+                                for
                                 print-on-demand.
                             </div>
                         </div>
