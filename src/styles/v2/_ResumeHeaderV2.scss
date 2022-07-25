@@ -1,0 +1,17 @@
+.ResumeHeaderV2 {
+  margin-bottom: 10px;
+
+  .Left {
+    margin-right: 30px;
+  }
+
+  .Right {
+    .Sub {
+      label {
+        font-weight: 600;
+        min-width: 150px;
+      }
+    }
+  }
+}
+
