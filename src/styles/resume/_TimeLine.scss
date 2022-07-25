@@ -1,5 +1,5 @@
 .TimeLine {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 
     a {
         text-decoration: none;
@@ -14,6 +14,11 @@
             a {
                 color: #333;
             }
+        }
+
+        .TimeRange {
+            color: #999;
+            font-weight: normal;
         }
     }
 }

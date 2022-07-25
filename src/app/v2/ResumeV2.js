@@ -3,6 +3,7 @@ import ResumeHeaderV2 from "./ResumeHeaderV2"
 import Education from "./Education"
 import WorkExperience from "./WorkExperience"
 import Achievements from "./Achievements"
+import Interests from "./Interests"
 
 
 class ResumeV2 extends Component {
@@ -13,6 +14,7 @@ class ResumeV2 extends Component {
                 <Education/>
                 <WorkExperience/>
                 <Achievements/>
+                <Interests/>
             </div>
         )
     }

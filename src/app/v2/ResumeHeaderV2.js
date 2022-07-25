@@ -10,7 +10,7 @@ class ResumeHeaderV2 extends Component {
                 <HeaderQR/>
 
                 <div className="Left">
-                    <img src="/images/avatar.jpg" width="120" alt="Avatar"/>
+                    <img src="/images/avatar.jpg" width="128" alt="Avatar"/>
                 </div>
 
                 <div className="Right">
