@@ -1,6 +1,11 @@
 .HeaderQR {
+  display: none;
   position: absolute;
   top: 0;
   right: 0;
+
+  @media all and (min-width: 475px) {
+    display: block;
+  }
 }
 

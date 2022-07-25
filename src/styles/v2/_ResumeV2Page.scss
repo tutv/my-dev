@@ -1,3 +1,8 @@
 .ResumeV2Page {
+  font-size: 0.875rem;
+
+  @media all and (min-width: 475px) {
+    font-size: 1rem;
+  }
 }
 

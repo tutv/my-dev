@@ -3,14 +3,37 @@
   position: relative;
 
   .Left {
-    margin-right: 30px;
+    margin-right: 20px;
+
+    img {
+      height: auto;
+      width: 80px;
+    }
   }
 
   .Right {
     .Sub {
       label {
         font-weight: 600;
-        min-width: 150px;
+        padding-right: 0.25rem;
+      }
+    }
+  }
+
+  @media all and (min-width: 475px) {
+    .Left {
+      margin-right: 30px;
+
+      img {
+        width: 128px;
+      }
+    }
+
+    .Right {
+      .Sub {
+        label {
+          min-width: 150px;
+        }
       }
     }
   }

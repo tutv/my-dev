@@ -47,6 +47,22 @@ class Achievements extends Component {
                             </div>
                         </div>
                     </div>
+
+                    <div className="TimeLine">
+                        <div className="HeadTime">
+                            <div className="TimeTitle">
+                                <a target="_blank" rel="noreferrer" href="https://bit.ly/uet-hackathon-2015">
+                                    Second prize - UET Hackathon 2015
+                                </a>
+                            </div>
+                            <div className="TimeRange">December, 2015</div>
+                        </div>
+                        <div className="MainTime">
+                            <div className="Text">
+                                "Lớp tôi" App - FRIES Team. I worked as a Backend Developer.
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         )
