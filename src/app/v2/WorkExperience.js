@@ -33,7 +33,7 @@ class WorkExperience extends Component {
                         </div>
                         <div className="MainTime">
                             <div className="Text">
-                                Building some tech courses and sharing them to students at UET.
+                                Building some tech courses and sharing them to UET students.
                             </div>
                         </div>
                     </div>
@@ -60,8 +60,7 @@ class WorkExperience extends Component {
                         <div className="MainTime">
                             <div className="Text">
                                 Learning and developing some themes and plugins for products of Foobla, which are sold
-                                on
-                                Envato.
+                                on Envato.
                             </div>
                         </div>
                     </div>
