@@ -11,7 +11,7 @@ class WorkExperience extends Component {
 
                     <div className="TimeLine">
                         <div className="HeadTime">
-                            <div className="TimeTitle">Solution Architect at Merchize (renamed from Foobla)</div>
+                            <div className="TimeTitle">Solution Architect at Merchize</div>
                             <div className="TimeRange">June, 2020 - July, 2022</div>
                         </div>
                         <div className="MainTime">
