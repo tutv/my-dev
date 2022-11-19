@@ -8,7 +8,7 @@ export default function DownloadCV() {
         <div className="DownloadCV">
             <a href="/pdf/cv.pdf" download={fileName}>
                 <FontAwesomeIcon icon={faCloudDownload}/>
-                <span> Download</span>
+                <span> PDF File</span>
             </a>
         </div>
     )
