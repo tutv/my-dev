@@ -21,7 +21,7 @@ export default function _dataExperiences() {
                     scratch with <strong>microservice</strong> architecture and Kubernetes, serving more
                     than <strong>1,000+</strong> active stores and thousands of daily orders.</li>,
                 <li><strong>Reduced costs</strong> by 60% each month by converting the system from single-tenant
-                    architecture to multi-tenant architecture and using <strong>spot instances</strong> provided by
+                    architecture to <strong>multi-tenant architecture</strong> and using <strong>spot instances</strong> provided by
                     Amazon.</li>,
                 <li>Collaborated with the SRE team to build fully <strong>automated CI/CD</strong> pipelines for code
                     deployment using GitLab CI.</li>
