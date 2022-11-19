@@ -1,8 +1,8 @@
-import ResumeV2Page from "../app/v2/ResumeV2Page"
+import ResumeV3 from "../app/v3/ResumeV3"
 
 
 export default function Home() {
     return (
-        <ResumeV2Page/>
+        <ResumeV3/>
     )
 }
