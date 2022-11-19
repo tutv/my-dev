@@ -1,4 +1,6 @@
 .ResumeHeader {
+  position: relative;
+
   h1 {
     text-transform: uppercase;
     font-size: 2.5rem;
@@ -15,5 +17,11 @@
 
   .Contact {
     font-size: .75rem;
+  }
+
+  &:hover {
+    .DownloadCV {
+      visibility: visible;
+    }
   }
 }
