@@ -10,7 +10,7 @@ export default function _dataSkills() {
         {
             sub_title: 'Frameworks / Platforms',
             list: [
-                'Node.js, React.js, Next.js',
+                'Node.js, Express, React.js, Next.js',
                 'jQuery, Bootstrap',
                 'Laravel, WordPress, WooCommerce'
             ]
