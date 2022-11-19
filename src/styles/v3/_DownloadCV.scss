@@ -2,7 +2,13 @@
   position: absolute;
   top: 0;
   right: 0;
-  visibility: hidden;
-  transition: 300ms all ease-in-out;
+
+  a {
+    @include primaryColor;
+  }
+
+  @media print {
+    visibility: hidden;
+  }
 }
 
