@@ -4,12 +4,11 @@
   }
 
   .EduOrg {
-    font-size: .75rem;
+    font-size: .875rem;
   }
 
   .EduMeta {
-    font-size: .75rem;
-    color: #666;
+    @include subContent;
   }
 }
 

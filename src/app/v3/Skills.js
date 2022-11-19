@@ -1,6 +1,6 @@
 export default function Skills() {
     return (
-        <div className="Skills">
+        <div className="Skills mt-3">
             <h2 className="HeadingSection">Skills & Tools</h2>
         </div>
     )

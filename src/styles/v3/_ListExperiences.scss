@@ -1,44 +1,54 @@
 .ListExperiences {
   .Experience {
+    margin-bottom: .5rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
     .JobTitle {
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
 
     .JobOrg {
-      font-size: .75rem;
+      @include subSize;
     }
 
     .Meta {
-      font-size: .75rem;
-      color: #666;
-
-      .TechStacks {
-        margin-left: 1rem;
-
-        svg {
-          margin-right: .25rem;
-        }
-
-        .Stacks {
-          .Stack {
-            padding: 2px 5px;
-            border: 1px solid #eee;
-            border-radius: 5px;
-            margin-right: 5px;
-
-            &:last-child {
-              margin-right: 0;
-            }
-          }
-        }
-      }
+      @include subContent;
     }
 
     ul {
-      padding-left: 1rem;
+      @include subContent;
+      padding-left: .875rem;
       margin: 0;
-      color: #666;
-      font-size: .75rem;
+    }
+
+    .TechStacks {
+      margin-top: .25rem;
+      @include subColor;
+
+      svg {
+        margin-right: .25rem;
+        margin-top: .25rem;
+      }
+
+      .Stacks {
+        @include subSize;
+
+        .Stack {
+          max-width: 100%;
+          padding: 2px 5px;
+          border: 1px solid #eee;
+          border-radius: 5px;
+          margin-right: 5px;
+          margin-bottom: .25rem;
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
     }
   }
 }

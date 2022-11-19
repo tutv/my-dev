@@ -1,0 +1,12 @@
+@mixin subSize {
+  font-size: .875rem;
+}
+
+@mixin subColor {
+  color: #666;
+}
+
+@mixin subContent {
+  @include subSize;
+  @include subColor;
+}

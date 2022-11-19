@@ -1,0 +1,12 @@
+.Achievements {
+  .Achievement {
+    margin-bottom: .5rem;
+
+    .Title {
+    }
+
+    .Description {
+      @include subContent;
+    }
+  }
+}

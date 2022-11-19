@@ -1,10 +1,11 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faCalendarDays} from "@fortawesome/free-regular-svg-icons"
 import {faServer} from "@fortawesome/free-solid-svg-icons"
+import {Fragment} from "react"
 
 
 export default function Experience({item}) {
-    const {job_title, job_org, duration, tech_stacks, highlights}= item
+    const {job_title, job_org, duration, tech_stacks, highlights} = item
 
     return (
         <div className="Experience">
@@ -13,24 +14,9 @@ export default function Experience({item}) {
                 <div className="JobOrg secondary">{job_org}</div>
             </div>
 
-            <div className="Meta d-flex justify-content-between">
+            <div className="Meta">
                 <div className="Duration">
                     <FontAwesomeIcon icon={faCalendarDays}/> {duration}
-                </div>
-
-                <div className="TechStacks">
-                    <div className="d-flex align-items-center">
-                        <FontAwesomeIcon icon={faServer}/><span>  </span>
-                        <div className="Stacks">
-                            {
-                                tech_stacks.map((stack, index) => {
-                                    return (
-                                        <span key={index} className="Stack">{stack}</span>
-                                    )
-                                })
-                            }
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -38,11 +24,26 @@ export default function Experience({item}) {
                 {
                     highlights.map((hl, index) => {
                         return (
-                            <li key={index}>{hl}</li>
+                            <Fragment key={index}>{hl}</Fragment>
                         )
                     })
                 }
             </ul>
+
+            <div title="Tech stacks" className="TechStacks">
+                <div className="d-flex">
+                    <FontAwesomeIcon icon={faServer}/><span>  </span>
+                    <div className="Stacks d-flex flex-wrap">
+                        {
+                            tech_stacks.map((stack, index) => {
+                                return (
+                                    <span key={index} className="Stack">{stack}</span>
+                                )
+                            })
+                        }
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
