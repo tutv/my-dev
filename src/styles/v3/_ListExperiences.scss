@@ -12,6 +12,7 @@
     }
 
     .JobOrg {
+      @include secondaryColor;
       @include subSize;
     }
 

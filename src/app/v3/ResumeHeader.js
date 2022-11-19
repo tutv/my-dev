@@ -8,7 +8,7 @@ export default function ResumeHeader() {
     return (
         <div className="ResumeHeader mb-3">
             <h1>Tran Van Tu</h1>
-            <h3 className="SubTitle secondary">Senior Software Engineer</h3>
+            <h3 className="SubTitle">Senior Software Engineer</h3>
             <div className="Contact d-flex">
                 <div className="Email">
                     <a href="mailto:tutv95@gmail.com"><FontAwesomeIcon icon={faEnvelope}/> tutv95@gmail.com</a>

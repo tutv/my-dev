@@ -6,7 +6,8 @@
     font-weight: 600;
   }
 
-  h3 {
+  .SubTitle {
+    @include secondaryColor;
     text-transform: uppercase;
     font-size: 1rem;
     margin-bottom: .25rem;

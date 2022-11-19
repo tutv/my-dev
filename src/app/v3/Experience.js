@@ -11,7 +11,7 @@ export default function Experience({item}) {
         <div className="Experience">
             <div className="d-flex justify-content-between align-items-center">
                 <div className="JobTitle">{job_title}</div>
-                <div className="JobOrg secondary">{job_org}</div>
+                <div className="JobOrg">{job_org}</div>
             </div>
 
             <div className="Meta">

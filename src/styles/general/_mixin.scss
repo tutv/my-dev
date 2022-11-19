@@ -1,3 +1,11 @@
+@mixin primaryColor {
+  color: $primaryColor;
+}
+
+@mixin secondaryColor {
+  color: $secondaryColor;
+}
+
 @mixin subSize {
   font-size: .875rem;
 }

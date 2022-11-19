@@ -5,6 +5,7 @@
 
   .EduOrg {
     font-size: .875rem;
+    @include secondaryColor;
   }
 
   .EduMeta {

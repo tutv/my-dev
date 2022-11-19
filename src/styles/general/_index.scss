@@ -1,3 +1,4 @@
+@import "./variables";
 @import "./mixin";
 
 a {
@@ -7,10 +8,6 @@ a {
 
 strong {
   font-weight: 600;
-}
-
-.secondary {
-  color: #72233d;
 }
 
 body {
