@@ -1,3 +1,3 @@
 # Tran Van Tu Resume
 
-Link: https://cv.tv.dev
+Link: https://cv.tutv.dev
