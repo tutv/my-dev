@@ -2,7 +2,7 @@ export default () => {
     return [
         {
             job_title: 'Senior Software Engineer',
-            job_org: 'Merchize, Hanoi',
+            job_org: 'Merchize, Vietnam',
             duration: 'Nov 2018 - Jul 2022 (3 yrs 9 mos)',
             tech_stacks: [
                 'Node.js',
@@ -17,7 +17,7 @@ export default () => {
         },
         {
             job_title: 'Software Engineer',
-            job_org: 'Foobla, Hanoi',
+            job_org: 'Foobla, Vietnam',
             duration: 'Sep 2017 - Nov 2018 (1yr 3mos)',
             tech_stacks: [
                 'Node.js',
@@ -32,7 +32,7 @@ export default () => {
         },
         {
             job_title: 'Co-Founder & Instructor',
-            job_org: 'UET Code Camp, Hanoi',
+            job_org: 'UET Code Camp, Vietnam',
             duration: 'Feb 2018 - Jul 2019 (1yr 6mos)',
             tech_stacks: [
                 'Node.js',
@@ -46,7 +46,7 @@ export default () => {
         },
         {
             job_title: 'WordPress Developer',
-            job_org: 'Foobla, Hanoi',
+            job_org: 'Foobla, Vietnam',
             duration: 'Jun 2015 - Aug 2017 (2yrs 2mos)',
             tech_stacks: [
                 'PHP',
