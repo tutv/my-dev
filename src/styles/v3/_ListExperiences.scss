@@ -1,0 +1,30 @@
+.ListExperiences {
+  .Experience {
+    .JobTitle {
+      font-size: 1.25rem;
+    }
+
+    .Meta {
+      font-size: .875rem;
+      color: #666;
+
+      .TechStacks {
+        margin-left: 1rem;
+
+        svg {
+          margin-right: .25rem;
+        }
+
+        .Stacks {
+          .Stack {
+            padding: 2px 5px;
+            border: 1px solid #eee;
+            border-radius: 5px;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+

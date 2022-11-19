@@ -7,20 +7,24 @@ export default function ListExperiences() {
     return (
         <div className="ListExperiences">
             <div className="Experience">
-                <div className="JobTitle">Senior Software Engineer</div>
-                <div className="JobOrg">Merchize, Hanoi</div>
+                <div className="d-flex justify-content-between align-items-center">
+                    <div className="JobTitle">Senior Software Engineer</div>
+                    <div className="JobOrg secondary">Merchize, Hanoi</div>
+                </div>
 
-                <div className="Meta d-flex">
+                <div className="Meta d-flex justify-content-between">
                     <div className="Duration">
                         <FontAwesomeIcon icon={faCalendarDays}/> Nov 2018 - Jul 2022 (3 yrs 9 mos)
                     </div>
 
-                    <div className="TechStacks d-flex">
-                        <FontAwesomeIcon icon={faServer}/>
-                        <div className="Stacks">
-                            <span className="Stack">Node.JS</span>
-                            <span className="Stack">AWS</span>
-                            <span className="Stack">MongoDB</span>
+                    <div className="TechStacks">
+                        <div className="d-flex align-items-center">
+                            <FontAwesomeIcon icon={faServer}/><span>  </span>
+                            <div className="Stacks">
+                                <span className="Stack">Node.JS</span>
+                                <span className="Stack">AWS</span>
+                                <span className="Stack">MongoDB</span>
+                            </div>
                         </div>
                     </div>
                 </div>
