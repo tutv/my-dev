@@ -1,6 +1,6 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faEnvelope} from '@fortawesome/free-regular-svg-icons'
-import {faPhone, faLocationDot} from '@fortawesome/free-solid-svg-icons'
+import {faPhone, faLocationDot, faLink} from '@fortawesome/free-solid-svg-icons'
 import {faLinkedin} from '@fortawesome/free-brands-svg-icons'
 
 
@@ -23,8 +23,14 @@ export default function ResumeHeader() {
                 </div>
 
                 <div className="Linkedin ps-3">
-                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/tutv/">
+                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/tutv">
                         <FontAwesomeIcon icon={faLinkedin}/> tutv
+                    </a>
+                </div>
+
+                <div className="Linkedin ps-3">
+                    <a target="_blank" rel="noreferrer" href="https://tutv.dev">
+                        <FontAwesomeIcon icon={faLink}/> tutv.dev
                     </a>
                 </div>
             </div>
