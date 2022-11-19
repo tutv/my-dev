@@ -1,0 +1,19 @@
+.SkillSection {
+  margin-bottom: .5rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  .SubTitle {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  ul {
+    @include contentColor;
+    @include subSize;
+    padding-left: 0.875rem;
+    margin-bottom: 0;
+  }
+}
