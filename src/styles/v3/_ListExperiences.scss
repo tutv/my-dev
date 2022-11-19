@@ -19,14 +19,15 @@
     }
 
     ul {
-      @include subContent;
+      @include subSize;
+      @include contentColor;
       padding-left: .875rem;
       margin: 0;
     }
 
     .TechStacks {
       margin-top: .25rem;
-      @include subColor;
+      @include contentColor;
 
       svg {
         margin-right: .25rem;

@@ -5,7 +5,7 @@ import Skills from "./Skills"
 
 export default function BodyRight() {
     return (
-        <div className="BodyRight">
+        <div className="BodyRight col">
             <Education/>
             <Achievements/>
             <Skills/>
