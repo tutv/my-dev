@@ -6,4 +6,10 @@
 
   .BodyRight {
   }
+
+  @media screen and (max-width: 768px) {
+      .BodyLeft {
+        width: 100%;
+      }
+  }
 }

@@ -12,25 +12,25 @@ export default function ResumeHeader() {
             <h1>Tran Van Tu</h1>
             <h3 className="SubTitle">Senior Software Engineer</h3>
             <div className="Contact d-flex">
-                <div className="Email">
+                <div className="Email me-3">
                     <a href="mailto:tutv95@gmail.com"><FontAwesomeIcon icon={faEnvelope}/> tutv95@gmail.com</a>
                 </div>
 
-                <div className="Phone ps-3">
+                <div className="Phone me-3">
                     <a href="tel:+84373428920"><FontAwesomeIcon icon={faPhone}/> +84 373428920</a>
                 </div>
 
-                <div className="Address ps-3">
+                <div className="Address me-3">
                     <span><FontAwesomeIcon icon={faLocationDot}/> Hanoi, Vietnam</span>
                 </div>
 
-                <div className="Linkedin ps-3">
+                <div className="Linkedin me-3">
                     <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/tutv">
                         <FontAwesomeIcon icon={faLinkedin}/> tutv
                     </a>
                 </div>
 
-                <div className="Linkedin ps-3">
+                <div className="Website">
                     <a target="_blank" rel="noreferrer" href="https://tutv.dev">
                         <FontAwesomeIcon icon={faLink}/> tutv.dev
                     </a>

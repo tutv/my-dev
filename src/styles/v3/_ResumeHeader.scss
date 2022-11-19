@@ -17,5 +17,18 @@
 
   .Contact {
     font-size: .75rem;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (max-width: 475px) {
+    h1 {
+      font-size: 2rem;
+    }
+
+    .Contact {
+      .me-3 {
+        margin-right: 0.5rem!important;
+      }
+    }
   }
 }
