@@ -1,11 +1,11 @@
 .ListExperiences {
   .Experience {
     .JobTitle {
-      font-size: 1.25rem;
+      font-size: 1.2rem;
     }
 
     .Meta {
-      font-size: .875rem;
+      font-size: .75rem;
       color: #666;
 
       .TechStacks {
@@ -23,6 +23,17 @@
             margin-right: 5px;
           }
         }
+      }
+    }
+
+    ul {
+      padding-left: 1rem;
+      margin: 0;
+      color: #666;
+      font-size: .75rem;
+
+      li {
+
       }
     }
   }

@@ -28,6 +28,20 @@ export default function ListExperiences() {
                         </div>
                     </div>
                 </div>
+
+                <ul className="List">
+                    <li>Built a high availability and scalable eCommerce platform from scratch with microservice
+                        architecture and Kubernetes, serving more than 1000+ active stores and thousands of daily
+                        orders.
+                    </li>
+                    <li>Reduced costs by 60% each month by converting the system from single-tenant architecture to
+                        multi-tenant architecture.
+                    </li>
+                    <li>
+                        Collaborated with the SRE team to build fully automated CI/CD pipelines for code deployment
+                        using GitLab CI.
+                    </li>
+                </ul>
             </div>
         </div>
     )

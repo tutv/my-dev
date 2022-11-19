@@ -5,12 +5,14 @@ import ResumeBody from "./ResumeBody"
 
 export default function ResumeV3() {
     return (
-        <div className="ResumeV3 container-fluid">
+        <div className="ResumeV3">
             <Head>
                 <title>Tran Van Tu - Senior Software Engineer</title>
             </Head>
-            <ResumeHeader/>
-            <ResumeBody/>
+            <div className="ResumeV3Inner">
+                <ResumeHeader/>
+                <ResumeBody/>
+            </div>
         </div>
     )
 }
