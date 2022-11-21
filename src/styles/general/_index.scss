@@ -12,4 +12,8 @@ strong {
 
 body {
   background-color: #525659;
+
+  @media print {
+    font-family: "Helvetica Neue", sans-serif;
+  }
 }
