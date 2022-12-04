@@ -17,11 +17,14 @@ export default function _dataExperiences() {
                 'AWS'
             ],
             highlights: [
-                <li>Built a <strong>high availability</strong> and <strong>scalable</strong> eCommerce platform from
+                <li>Built a <strong>high availability</strong> and <strong>scalable eCommerce platform</strong> from
                     scratch with <strong>microservice</strong> architecture and Kubernetes, serving more
                     than <strong>1,000+</strong> active stores and thousands of daily orders.</li>,
+                <li>Build a <strong>reliable fulfillment service</strong> to process orders efficiently from the
+                    eCommerce platform and navigate them to factories or partners smoothly.</li>,
                 <li><strong>Reduced costs</strong> by 60% each month by converting the system from single-tenant
-                    architecture to <strong>multi-tenant architecture</strong> and using <strong>spot instances</strong> provided by
+                    architecture to <strong>multi-tenant architecture</strong> and using <strong>spot
+                        instances</strong> provided by
                     Amazon.</li>,
                 <li>Collaborated with the SRE team to build fully <strong>automated CI/CD</strong> pipelines for code
                     deployment using GitLab CI.</li>
@@ -65,8 +68,8 @@ export default function _dataExperiences() {
             highlights: [
                 <li>Volunteered, built, and taught two tech courses for 2 years with more than 60+ students at
                     UET-VNU.</li>,
-                <li>First course: How to build a web app with React.js (2018).</li>,
-                <li>Second course: How to become a backend developer with Node.js (2019).</li>
+                <li>First course: How to build a web app with React.js.</li>,
+                <li>Second course: How to become a backend developer with Node.js.</li>
             ]
         },
         {
@@ -82,7 +85,8 @@ export default function _dataExperiences() {
                 'Nginx'
             ],
             highlights: [
-                <li>Developed various plugins and themes for WordPress, which are on top best-selling items on ThemeForest (Envato).</li>,
+                <li>Developed various plugins and themes for WordPress, which are on top best-selling items on
+                    ThemeForest (Envato).</li>,
             ]
         }
     ]
