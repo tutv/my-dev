@@ -20,7 +20,7 @@ export default function _dataExperiences() {
                 <li>Built a <strong>high availability</strong> and <strong>scalable eCommerce platform</strong> from
                     scratch with <strong>microservice</strong> architecture and Kubernetes, serving more
                     than <strong>1,000+</strong> active stores and thousands of daily orders.</li>,
-                <li>Build a <strong>reliable fulfillment service</strong> to process orders efficiently from the
+                <li>Built a <strong>reliable fulfillment service</strong> to process orders efficiently from the
                     eCommerce platform and navigate them to factories or partners smoothly.</li>,
                 <li><strong>Reduced costs</strong> by 60% each month by converting the system from single-tenant
                     architecture to <strong>multi-tenant architecture</strong> and using <strong>spot
